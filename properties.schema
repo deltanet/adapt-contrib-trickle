@@ -151,15 +151,6 @@
                       "inputType": "Text",
                       "validators": []
                     },
-                    "_hasIcon": {
-                      "type": "boolean",
-                      "required": false,
-                      "default": false,
-                      "title": "Enable button icon",
-                      "inputType": "Checkbox",
-                      "validators": [],
-                      "help": "Displays an icon alongside, or in place of, the Trickle button text. Default icon is a small downwards arrow"
-                    },
                     "text": {
                       "type": "string",
                       "required": false,
@@ -330,15 +321,6 @@
                       "title": "Custom Classes",
                       "inputType": "Text",
                       "validators": []
-                    },
-                    "_hasIcon": {
-                      "type": "boolean",
-                      "required": false,
-                      "default": false,
-                      "title": "Enable button icon",
-                      "inputType": "Checkbox",
-                      "validators": [],
-                      "help": "Displays an icon alongside, or in place of, the Trickle button text. Default icon is a small downwards arrow"
                     },
                     "text": {
                       "type": "string",
