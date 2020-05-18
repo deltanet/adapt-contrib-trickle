@@ -85,7 +85,7 @@ define([
                     // relative to the current trickle item
                     var relativeModel = fromModel.findRelativeModel(scrollTo, {
                         filter: function(model) {
-                            return model.get("_isAvailable");
+                            return model.getIsAvailableInPage();
                         }
                     });
 
@@ -103,7 +103,7 @@ define([
             if (scrollToId == "") return;
 
             $("." + scrollToId).focusOrNext();
-            
+
             var isAutoScrollOff = (!trickle._autoScroll);
             if (isAutoScrollOff) {
                 return false;
